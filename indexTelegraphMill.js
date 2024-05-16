@@ -87,7 +87,6 @@ let indexhtml = `
 		<li><a href="#videoall">composite video</a></li>
 		<li><a href="#list">${indextitle} sequences</a></li>
 		<!--<li><a href="#about">about</a></li>-->
-		<li><a href="conference.html">${indextitle} annual conference</a></li>
 	</ul>
 </nav>
 <div class="screenreader-text">
@@ -150,10 +149,7 @@ indexhtml = indexhtml + `
 		<h1>project support</h1>
 	</header>
 	<div class="content">
-	<p>Kathy McTavish was a fiscal year 2023 recipient of a Creative Support for Individuals grant from the Minnesota State Arts Board. This activity was made possible by the voters of Minnesota through a grant from the Minnesota State Arts Board, thanks to a legislative appropriation from the arts and cultural heritage fund.</p>
-	<p><a href="https://quiltfactory.work">the quilt factory</a></p>
-	<p>see also: <a href="https://netfactory.work">the net factory</a></p>
-	<p>see also: <a href="https://clockfactory.work">the clock factory</a></p>
+	<p>This project was developed as part of an artist residency at the Kathryn A. Martin Library (UMN Duluth).</p>
 	</div>
 </article>
 </main>
@@ -338,6 +334,7 @@ ${gsurl}/${mill.name}/film16x9_15sec_v_sound.mp4
 		<li><a href="printbook${mill.suffix}.html">html version</a></li>
 		<li><a href="${gsurl}/${mill.name}/printbook.pdf">illustrated book (pdf)</a></li>
 		<li><a href="${gsurl}/${mill.name}/printpicturebook.pdf">picture book (pdf)</a></li>
+		<li><a href="${gsurl}/${mill.name}/printpostcardbook.pdf">postcard book (pdf)</a></li>
 	</ul>
 	</div>
 </article>
